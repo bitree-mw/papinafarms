@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"primary-fixed-dim":"#8cd6a8","on-secondary-fixed-variant":"#095220","error":"#ba1a1a","on-tertiary":"#ffffff","outline":"#707a71","on-primary-fixed-variant":"#005231","outline-variant":"#bfc9bf","primary":"#004226","surface-variant":"#dee4dc","inverse-primary":"#8cd6a8","on-primary-container":"#88d2a4","tertiary-container":"#684b00","on-secondary-container":"#2b6e38","background":"#f5fbf3","surface-tint":"#1f6b46","surface-container-high":"#e4eae2","inverse-on-surface":"#edf2ea","secondary-container":"#a7eeab","on-tertiary-fixed-variant":"#5c4200","on-tertiary-container":"#f6b81b","on-background":"#171d18","surface":"#f5fbf3","on-error-container":"#93000a","on-surface-variant":"#404942","on-tertiary-fixed":"#261900","inverse-surface":"#2c322d","tertiary-fixed":"#ffdea2","secondary-fixed":"#acf3b0","on-error":"#ffffff","primary-container":"#075c38","surface-container-highest":"#dee4dc","on-primary":"#ffffff","error-container":"#ffdad6","surface-container":"#eaf0e8","surface-container-low":"#eff5ed","surface-bright":"#f5fbf3","primary-fixed":"#a7f3c3","surface-container-lowest":"#ffffff","tertiary":"#4b3500","on-secondary":"#ffffff","secondary":"#296b36","on-primary-fixed":"#002111","on-surface":"#171d18","secondary-fixed-dim":"#91d796","on-secondary-fixed":"#002108","surface-dim":"#d6dcd4","tertiary-fixed-dim":"#fbbc21"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-sm":"0.5rem","space-xs":"0.25rem","space-xl":"2.5rem","gutter":"1.5rem","margin-mobile":"1.25rem","space-lg":"1.5rem","gutter-mobile":"1rem","space-md":"1rem","margin":"3rem"},"fontFamily":{"body-md":["Inter"],"body-lg":["Inter"],"label-sm":["Inter"],"headline-md":["Plus Jakarta Sans"],"display-lg":["Plus Jakarta Sans"],"body-sm":["Inter"],"headline-xl-mobile":["Plus Jakarta Sans"],"label-lg":["Inter"],"display-lg-mobile":["Plus Jakarta Sans"],"body-xl":["Inter"],"headline-sm":["Plus Jakarta Sans"],"label-md":["Inter"],"headline-xl":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"]},"fontSize":{"body-md":["14px",{"lineHeight":"20px","fontWeight":"400"}],"body-lg":["16px",{"lineHeight":"24px","fontWeight":"400"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.04em","fontWeight":"600"}],"headline-md":["24px",{"lineHeight":"32px","letterSpacing":"-0.005em","fontWeight":"600"}],"display-lg":["56px",{"lineHeight":"64px","letterSpacing":"-0.02em","fontWeight":"800"}],"body-sm":["12px",{"lineHeight":"16px","fontWeight":"400"}],"headline-xl-mobile":["28px",{"lineHeight":"36px","letterSpacing":"-0.01em","fontWeight":"700"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"600"}],"display-lg-mobile":["36px",{"lineHeight":"44px","letterSpacing":"-0.01em","fontWeight":"800"}],"body-xl":["18px",{"lineHeight":"28px","fontWeight":"400"}],"headline-sm":["20px",{"lineHeight":"28px","fontWeight":"600"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"600"}],"headline-xl":["40px",{"lineHeight":"48px","letterSpacing":"-0.015em","fontWeight":"700"}],"headline-lg":["32px",{"lineHeight":"40px","letterSpacing":"-0.01em","fontWeight":"700"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 w-full z-50 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-[1440px] mx-auto px-margin-mobile lg:px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-md"><img alt="papina logo.jpeg" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UL8ecs1asIfn_OqKhpfNHjBQfO-h04VS7UatyHpgARtiHHXhUJGjn8fK8BcTwv-SPnrSf9Y6XRa32Nnu0J36zVTdXh5B13PDWudf8OvzaydOx2fWTn-dssKdle67sw-Q8aBN3WCth58RWCZN3ypIPOldMV1-eNWIbxo6safDUgbWS5l6vhgcjNrglpaM9KxbhwgNDE9ry6AuI_l3QL5U8YJAOZRJequeJJsV3Pcu2n1Nnh9TQh_reLe-bBxTbA-r_ECb0FCFWuLx4"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary font-bold tracking-tight leading-none">PAPINA FARMS LTD</span><span class="font-label-sm text-label-sm text-on-surface-variant tracking-wider uppercase mt-space-xs">Nourishing Every Generation</span></div></div><nav class="hidden xl:flex items-center gap-space-lg" data-active-classes="text-primary font-bold bg-surface-container rounded-lg px-space-sm py-space-xs"><a aria-current="page" class="transition-colors text-primary font-bold bg-surface-container rounded-lg px-space-sm py-space-xs" data-path="home" href="#">Home</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="about-us" href="#">About Us</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="what-we-do" href="#">What We Do</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="farmers-membership" href="#">Farmers &amp; Membership</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="markets-partners" href="#">Markets &amp; Partners</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="resources" href="#">Resources</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="contact-us" href="#">Contact Us</a></nav><div class="flex items-center gap-space-md"><a class="inline-flex items-center justify-center bg-tertiary-fixed text-on-tertiary-fixed font-label-lg text-label-lg px-space-md py-space-sm rounded-lg shadow-sm hover:bg-tertiary-fixed-dim transition-all" data-path="become-a-group-member" href="#">Become a Group Member</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shadow-sm"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<!-- 1. HERO SECTION -->
+<section class="relative w-full -mt-20 overflow-hidden bg-primary text-on-primary">
+<!-- Background Image with Scrim Gradient Overlay -->
+<div class="absolute inset-0 bg-cover bg-center mix-blend-overlay opacity-30 transform scale-105 transition-transform duration-1000" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBp97KgxuhOoumhf3A2cAip1pl9QXyvUQ9_bKADPOg9grtBwXMR5WQcPGTOueG3eEPl9eeYR3XC_1WviNDNEN7VvSAIRConDH8_bZppvEF3IRjKE4A_FKF-QhTkXWyhGJI2tl_ECTQzMRRzXH8FuCctb1VRAyJS8L8Z24V0U3oNJ7jz74NmrIns1zfoRMur2bnfDOhgzLnKdP0Q1EKzxyQmo5nzm9EfpDsd0HxYIuTlpVPom88Cq2AgYw');"></div>
+<div class="absolute inset-0 bg-gradient-to-b from-primary/95 via-primary-container/85 to-primary/95"></div>
+<!-- Decorative Topographical Lines / Atmosphere -->
+<div class="absolute inset-0 opacity-10 pointer-events-none">
+<svg class="w-full h-full" preserveaspectratio="none" viewbox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+<path d="M0,300 C300,200 400,500 1000,200 L1000,1000 L0,1000 Z" fill="currentColor"></path>
+</svg>
+</div>
+<!-- Hero Content Container -->
+<div class="relative z-10 max-w-[1440px] mx-auto px-margin-mobile lg:px-margin pt-36 pb-20 lg:pt-44 lg:pb-28">
+<div class="max-w-4xl flex flex-col items-start gap-space-md">
+<!-- Institutional Badge -->
+<div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-surface-container-lowest/15 backdrop-blur-md border border-on-primary/10">
+<span class="w-2 h-2 rounded-full bg-tertiary-fixed animate-pulse"></span>
+<span class="font-label-sm text-label-sm text-tertiary-fixed font-semibold tracking-wider uppercase">
+            PAPINA FARMS LTD • EST. 2020 • MZUZU, MALAWI
+          </span>
+</div>
+<!-- Headline -->
+<h1 class="font-display-lg text-headline-xl lg:text-display-lg font-extrabold tracking-tight text-on-primary leading-tight">
+          Empowering Farmers.<br/>
+<span class="text-tertiary-fixed">Strengthening</span> Agriculture.<br/>
+          Connecting Markets.
+        </h1>
+<!-- Subtext -->
+<p class="font-body-xl text-body-lg lg:text-body-xl text-surface-container-high max-w-2xl font-normal leading-relaxed">
+          Papina Farms connects smallholder farmers, cooperatives, and producer organisations across Malawi to vital production support, reliable off-taking markets, and transformative value-addition opportunities.
+        </p>
+<!-- CTAs -->
+<div class="flex flex-wrap items-center gap-space-sm pt-space-sm">
+<a class="inline-flex items-center gap-2 bg-primary-container text-on-primary border border-tertiary-fixed/60 font-label-lg text-label-lg px-space-lg py-space-sm rounded-lg shadow-md hover:bg-surface-tint transition-all" href="#services">
+<span>Explore Our Services</span>
+<span class="material-symbols-outlined text-[18px] text-tertiary-fixed">arrow_forward</span>
+</a>
+<a class="inline-flex items-center gap-2 bg-tertiary-fixed text-on-tertiary-fixed font-label-lg text-label-lg px-space-lg py-space-sm rounded-lg shadow-md hover:bg-tertiary-fixed-dim transition-all" href="#farmers-membership">
+<span class="material-symbols-outlined text-[18px]">group_add</span>
+<span>Register Your Group</span>
+</a>
+<a class="inline-flex items-center gap-2 bg-surface-container-lowest/10 text-on-primary border border-surface-container-lowest/30 font-label-lg text-label-lg px-space-lg py-space-sm rounded-lg backdrop-blur-sm hover:bg-surface-container-lowest/20 transition-all" href="#partnerships">
+<span>Partner With Us</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Stats Counter Ribbon (Floats slightly into next fold) -->
+<div class="relative z-20 w-full bg-primary-container/90 border-t border-on-primary/10 backdrop-blur-xl">
+<div class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin py-space-md">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-gutter">
+<div class="flex flex-col">
+<span class="font-headline-lg text-headline-lg font-bold text-tertiary-fixed tracking-tight" id="counter-farmers">5,000+</span>
+<span class="font-label-md text-label-md text-surface-container-high">Smallholder Farmers Mobilised</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-lg text-headline-lg font-bold text-tertiary-fixed tracking-tight" id="counter-coops">42</span>
+<span class="font-label-md text-label-md text-surface-container-high">Active Cooperatives</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-lg text-headline-lg font-bold text-tertiary-fixed tracking-tight">6</span>
+<span class="font-label-md text-label-md text-surface-container-high">Key Value Chains</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-lg text-headline-lg font-bold text-primary-fixed tracking-tight">100%</span>
+<span class="font-label-md text-label-md text-surface-container-high">Malawian Enterprise</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 2. WHO WE ARE SECTION -->
+<section class="w-full py-space-xl bg-surface">
+<div class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Left Column: Narrative -->
+<div class="lg:col-span-6 flex flex-col gap-space-md">
+<div class="inline-flex items-center gap-2 text-secondary font-label-md text-label-md uppercase tracking-wider">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+            About Papina Farms Ltd
+          </div>
+<h2 class="font-headline-xl text-headline-lg lg:text-headline-xl font-bold text-on-surface text-primary leading-tight">
+            Rooted in Northern Malawi, Growing Inclusive Agribusiness
+          </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+            Founded in 2020 in Mzuzu, Papina Farms Ltd emerged with an uncompromising purpose: transforming subsistence farming across Malawi into profitable, sustainable, and commercially disciplined enterprises.
+          </p>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Operating from the agro-ecological cradle of Mzuzu and the Northern Region, we bridge systemic bottlenecks by combining community mobilization, modern post-harvest storage, precision agronomy, and assured off-taking contracts. Our integrated agribusiness model safeguards the farmer's livelihood while delivering certified produce to regional food security channels.
+          </p>
+<!-- Highlight Mission Card -->
+<div class="p-space-md rounded-xl bg-surface-container-low shadow-sm border-l-4 border-secondary flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[28px] shrink-0 mt-1">flag</span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-primary font-bold">Our Mission</span>
+<p class="font-body-md text-body-md text-on-surface italic mt-0.5">
+                "Nourishing Every Generation by closing the gap between farmgate and commercial markets."
+              </p>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-space-sm pt-space-xs">
+<div class="flex items-center gap-2 text-on-surface">
+<span class="material-symbols-outlined text-secondary text-[20px]">verified</span>
+<span class="font-label-lg text-label-lg">Certified Quality Sourcing</span>
+</div>
+<div class="flex items-center gap-2 text-on-surface">
+<span class="material-symbols-outlined text-secondary text-[20px]">handshake</span>
+<span class="font-label-lg text-label-lg">Fair Farmgate Pricing</span>
+</div>
+</div>
+</div>
+<!-- Right Column: Visual Narrative Card -->
+<div class="lg:col-span-6 relative">
+<div class="relative rounded-2xl overflow-hidden shadow-lg bg-surface-container">
+<img alt="Malawian smallholder farmer cooperative group meeting outdoors under an acacia tree" class="w-full h-[460px] object-cover object-center" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC8HKcsM-T0t0fWXDX8bXtMnDTE7pYaR8y-AFfw6_1GOKkbtTy8Na4v_vB3KowwaNmbn6kGimTC4a4n1fgibDbf0dzvtUybCSSIneJgC6iVyQbygAUx0hCQugaaejYNwsW668MCf08ulgBX0LUZXDuKtCO-YTYcI9JhJ4z5rixxfcTAk7gluHitqSl1vCQLrK6RRbWJwDytnljpwQOIKGcIMbYxgwxdHxQyuVCQHeXx9yhjN6I-Sbpxwg"/>
+<!-- Overlay floating credential -->
+<div class="absolute bottom-4 left-4 right-4 p-space-sm bg-surface-container-lowest/90 backdrop-blur-md rounded-xl shadow-md flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[28px]">eco</span>
+<div>
+<h4 class="font-label-lg text-label-lg text-on-surface font-bold leading-none">Vwawa &amp; Ekwendeni Cluster</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">420 metric tons certified non-GMO legume aggregation</p>
+</div>
+</div>
+<span class="px-2.5 py-1 bg-secondary-container text-on-secondary-container rounded-full font-label-sm text-label-sm font-semibold">Verified Outgrowers</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. OUR CORE SERVICES (6 CARDS) -->
+<section class="w-full py-space-xl bg-surface-container-low" id="services">
+<div class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin">
+<!-- Section Header -->
+<div class="flex flex-col items-center text-center max-w-2xl mx-auto mb-space-xl">
+<span class="font-label-md text-label-md uppercase tracking-wider text-secondary font-bold">End-to-End Capabilities</span>
+<h2 class="font-headline-xl text-headline-lg lg:text-headline-xl font-bold text-primary mt-space-xs">Our Core Services</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-space-xs">
+          Catalyzing agricultural transformation through institutional-grade infrastructure, structured trading, and localized grassroots advisory.
+        </p>
+</div>
+<!-- 6 Service Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<!-- Service 1 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-primary mb-space-md">
+<span class="material-symbols-outlined text-[26px]">groups</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Smallholder Farmer &amp; Cooperative Support</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs leading-relaxed">
+              Technical agronomic extension, Good Agricultural Practices (GAP) field coaching, governance leadership, and structured farmer cluster registration.
+            </p>
+</div>
+<div class="pt-space-md flex items-center gap-1 text-secondary font-label-md text-label-md">
+<span>Learn about field programs</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</div>
+</div>
+<!-- Service 2 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-primary mb-space-md">
+<span class="material-symbols-outlined text-[26px]">warehouse</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Aggregation &amp; Grain Warehousing</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs leading-relaxed">
+              Climate-controlled storage facilities in Mzuzu offering moisture content evaluation, fumigation, certified warehouse receipts, and loss reduction.
+            </p>
+</div>
+<div class="pt-space-md flex items-center gap-1 text-secondary font-label-md text-label-md">
+<span>Inspect storage capacity</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</div>
+</div>
+<!-- Service 3 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-primary mb-space-md">
+<span class="material-symbols-outlined text-[26px]">factory</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Agro-Processing &amp; Value Addition</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs leading-relaxed">
+              Secondary transformation converting raw harvests—soya, sunflower, maize, and cassava—into protein-dense livestock feed rations and fortified consumer staples.
+            </p>
+</div>
+<div class="pt-space-md flex items-center gap-1 text-secondary font-label-md text-label-md">
+<span>View processed lines</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</div>
+</div>
+<!-- Service 4 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-primary mb-space-md">
+<span class="material-symbols-outlined text-[26px]">storefront</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Off-Taking &amp; Market Linkages</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs leading-relaxed">
+              Guaranteed fair purchase agreements, spot sales, and institutional forward contracting with commercial commodity buyers, NGOs, and regional markets.
+            </p>
+</div>
+<div class="pt-space-md flex items-center gap-1 text-secondary font-label-md text-label-md">
+<span>Explore buyer terms</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</div>
+</div>
+<!-- Service 5 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-primary mb-space-md">
+<span class="material-symbols-outlined text-[26px]">diversity_1</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Youth &amp; Women Agribusiness Empowerment</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs leading-relaxed">
+              Targeted incubator schemes supplying inputs, modern drip kits, and dedicated land plots to female-led farmer clusters and young agripreneurs.
+            </p>
+</div>
+<div class="pt-space-md flex items-center gap-1 text-secondary font-label-md text-label-md">
+<span>Community initiatives</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</div>
+</div>
+<!-- Service 6 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-primary mb-space-md">
+<span class="material-symbols-outlined text-[26px]">account_balance</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Village Bank &amp; Financial Linkages</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs leading-relaxed">
+              Catalyzing grassroots savings into productive capital. We connect Village Savings &amp; Loan associations (VSLAs) with micro-credit facilities and inputs.
+            </p>
+</div>
+<div class="pt-space-md flex items-center gap-1 text-secondary font-label-md text-label-md">
+<span>Financial empowerment</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. AGRICULTURAL VALUE-CHAIN ILLUSTRATION (7 STEPS) -->
+<section class="w-full py-space-xl bg-surface">
+<div class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-lg gap-space-sm">
+<div>
+<span class="font-label-md text-label-md uppercase tracking-wider text-secondary font-bold">Traceability &amp; Value Addition</span>
+<h2 class="font-headline-xl text-headline-lg lg:text-headline-xl font-bold text-primary mt-space-xs">
+            The Papina Farm-to-Consumer Value Chain
+          </h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          A seamless 7-stage pathway maximizing yields, post-harvest recovery, and guaranteed market returns for rural producers.
+        </p>
+</div>
+<!-- 7 Step Stepper -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-7 gap-space-sm relative">
+<!-- Step 1 -->
+<div class="bg-surface-container-low p-space-sm rounded-xl flex flex-col justify-between min-h-[190px] hover:bg-surface-container transition-colors">
+<div>
+<div class="flex items-center justify-between mb-space-xs">
+<span class="w-7 h-7 rounded-full bg-primary text-on-primary font-label-sm text-label-sm font-bold flex items-center justify-center">1</span>
+<span class="material-symbols-outlined text-primary text-[20px]">group</span>
+</div>
+<h4 class="font-headline-sm text-body-lg font-bold text-on-surface">Farmer Organisation</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Mobilising smallholder clusters and formal cooperative registration.</p>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-semibold">Stage 01</span>
+</div>
+<!-- Step 2 -->
+<div class="bg-surface-container-low p-space-sm rounded-xl flex flex-col justify-between min-h-[190px] hover:bg-surface-container transition-colors">
+<div>
+<div class="flex items-center justify-between mb-space-xs">
+<span class="w-7 h-7 rounded-full bg-primary text-on-primary font-label-sm text-label-sm font-bold flex items-center justify-center">2</span>
+<span class="material-symbols-outlined text-primary text-[20px]">psychology_alt</span>
+</div>
+<h4 class="font-headline-sm text-body-lg font-bold text-on-surface">Production Support</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Certified seeds, biological inputs, and GAP agronomic advisory.</p>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-semibold">Stage 02</span>
+</div>
+<!-- Step 3 -->
+<div class="bg-surface-container-low p-space-sm rounded-xl flex flex-col justify-between min-h-[190px] hover:bg-surface-container transition-colors">
+<div>
+<div class="flex items-center justify-between mb-space-xs">
+<span class="w-7 h-7 rounded-full bg-primary text-on-primary font-label-sm text-label-sm font-bold flex items-center justify-center">3</span>
+<span class="material-symbols-outlined text-primary text-[20px]">conveyor_belt</span>
+</div>
+<h4 class="font-headline-sm text-body-lg font-bold text-on-surface">Aggregation</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Community collection hubs and bulk transit to Mzuzu central grain depot.</p>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-semibold">Stage 03</span>
+</div>
+<!-- Step 4 -->
+<div class="bg-surface-container-low p-space-sm rounded-xl flex flex-col justify-between min-h-[190px] hover:bg-surface-container transition-colors">
+<div>
+<div class="flex items-center justify-between mb-space-xs">
+<span class="w-7 h-7 rounded-full bg-primary text-on-primary font-label-sm text-label-sm font-bold flex items-center justify-center">4</span>
+<span class="material-symbols-outlined text-primary text-[20px]">payments</span>
+</div>
+<h4 class="font-headline-sm text-body-lg font-bold text-on-surface">Off-Taking</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Immediate transparent farmgate settlements and weight receipts.</p>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-semibold">Stage 04</span>
+</div>
+<!-- Step 5 -->
+<div class="bg-surface-container-low p-space-sm rounded-xl flex flex-col justify-between min-h-[190px] hover:bg-surface-container transition-colors">
+<div>
+<div class="flex items-center justify-between mb-space-xs">
+<span class="w-7 h-7 rounded-full bg-primary text-on-primary font-label-sm text-label-sm font-bold flex items-center justify-center">5</span>
+<span class="material-symbols-outlined text-primary text-[20px]">blender</span>
+</div>
+<h4 class="font-headline-sm text-body-lg font-bold text-on-surface">Value Addition</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Industrial grading, cleaning, extrusion, and livestock feed milling.</p>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-semibold">Stage 05</span>
+</div>
+<!-- Step 6 -->
+<div class="bg-surface-container-low p-space-sm rounded-xl flex flex-col justify-between min-h-[190px] hover:bg-surface-container transition-colors">
+<div>
+<div class="flex items-center justify-between mb-space-xs">
+<span class="w-7 h-7 rounded-full bg-primary text-on-primary font-label-sm text-label-sm font-bold flex items-center justify-center">6</span>
+<span class="material-symbols-outlined text-primary text-[20px]">campaign</span>
+</div>
+<h4 class="font-headline-sm text-body-lg font-bold text-on-surface">Marketing</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">National commodity exchange bidding and commercial brand packaging.</p>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-semibold">Stage 06</span>
+</div>
+<!-- Step 7 -->
+<div class="bg-surface-container-low p-space-sm rounded-xl flex flex-col justify-between min-h-[190px] hover:bg-surface-container transition-colors">
+<div>
+<div class="flex items-center justify-between mb-space-xs">
+<span class="w-7 h-7 rounded-full bg-primary text-on-primary font-label-sm text-label-sm font-bold flex items-center justify-center">7</span>
+<span class="material-symbols-outlined text-primary text-[20px]">local_shipping</span>
+</div>
+<h4 class="font-headline-sm text-body-lg font-bold text-on-surface">Distribution</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Institutional supply contracts to national and export food channels.</p>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-semibold">Stage 07</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. PRIORITY CALLOUT: FARMERS & COOPERATIVES MEMBERSHIP -->
+<section class="w-full py-space-xl bg-surface-container" id="farmers-membership">
+<div class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin">
+<div class="bg-surface-container-lowest rounded-2xl p-space-lg lg:p-space-xl shadow-md border-l-8 border-primary">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<div class="lg:col-span-8 flex flex-col gap-space-sm">
+<span class="px-3 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-bold self-start">
+              Open Registration Cycle 2025/2026
+            </span>
+<h2 class="font-headline-xl text-headline-lg lg:text-headline-xl font-bold text-primary">
+              Become a Papina Farms Member Cooperative
+            </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+              Unlock access to guaranteed forward purchase agreements, subsidized soil-nutrient packages, agronomic advisory, and reliable off-taking at fair, transparent market prices. Join over 42 thriving producer groups across the Northern Region.
+            </p>
+<!-- Membership Benefits Matrix -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-sm pt-space-xs">
+<div class="p-space-sm bg-surface-container-low rounded-lg">
+<span class="font-headline-sm text-headline-sm font-bold text-secondary">01</span>
+<h5 class="font-label-lg text-label-lg font-semibold text-on-surface mt-1">Guaranteed Off-take</h5>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Written buyback terms prior to planting season.</p>
+</div>
+<div class="p-space-sm bg-surface-container-low rounded-lg">
+<span class="font-headline-sm text-headline-sm font-bold text-secondary">02</span>
+<h5 class="font-label-lg text-label-lg font-semibold text-on-surface mt-1">Input Financing</h5>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">High-germination seed stocks &amp; biological fertilizers.</p>
+</div>
+<div class="p-space-sm bg-surface-container-low rounded-lg">
+<span class="font-headline-sm text-headline-sm font-bold text-secondary">03</span>
+<h5 class="font-label-lg text-label-lg font-semibold text-on-surface mt-1">Moisture &amp; Warehousing</h5>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Free grain testing &amp; climate-secure warehousing.</p>
+</div>
+</div>
+</div>
+<!-- Registration & Download Action Box -->
+<div class="lg:col-span-4 flex flex-col gap-space-sm bg-surface-container-low p-space-md rounded-xl">
+<h4 class="font-headline-sm text-headline-sm font-bold text-primary">Download Registration Packet</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Download the official Papina Farms Cooperative Enrollment Form (PDF), fill in your group roster, and submit at our Mzuzu Agro-Hub.
+            </p>
+<a class="inline-flex items-center justify-center gap-2 bg-primary text-on-primary font-label-lg text-label-lg py-space-sm px-space-md rounded-lg shadow-sm hover:bg-surface-tint transition-all" href="#">
+<span class="material-symbols-outlined text-[20px]">download</span>
+<span>Download Form (PDF, 420KB)</span>
+</a>
+<a class="inline-flex items-center justify-center gap-2 bg-tertiary-fixed text-on-tertiary-fixed font-label-lg text-label-lg py-space-sm px-space-md rounded-lg shadow-sm hover:bg-tertiary-fixed-dim transition-all" data-path="become-a-group-member" href="#">
+<span class="material-symbols-outlined text-[20px]">app_registration</span>
+<span>Online Member Application</span>
+</a>
+<span class="text-center font-body-sm text-body-sm text-on-surface-variant">
+              Inquiries: membership@papinafarms.mw
+            </span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. MARKETS & PARTNERSHIPS BANNER -->
+<section class="w-full py-space-xl bg-surface" id="partnerships">
+<div class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin">
+<div class="text-center max-w-xl mx-auto mb-space-md">
+<span class="font-label-md text-label-md uppercase tracking-wider text-secondary font-bold">Trusted Ecosystem</span>
+<h3 class="font-headline-lg text-headline-lg font-bold text-primary mt-1">Our Markets &amp; Strategic Partners</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+          Partnering with food processors, relief agencies, and institutional off-takers across Southern &amp; Eastern Africa.
+        </p>
+</div>
+<!-- Partner Logos / Entities -->
+<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-space-sm items-center">
+<div class="p-space-md bg-surface-container-low rounded-xl flex items-center justify-center text-center">
+<span class="font-label-lg text-label-lg text-on-surface-variant font-bold">Malawi Grain Traders</span>
+</div>
+<div class="p-space-md bg-surface-container-low rounded-xl flex items-center justify-center text-center">
+<span class="font-label-lg text-label-lg text-on-surface-variant font-bold">Northern Ag-Coop Union</span>
+</div>
+<div class="p-space-md bg-surface-container-low rounded-xl flex items-center justify-center text-center">
+<span class="font-label-lg text-label-lg text-on-surface-variant font-bold">Mzuzu Feeds Mill Ltd</span>
+</div>
+<div class="p-space-md bg-surface-container-low rounded-xl flex items-center justify-center text-center">
+<span class="font-label-lg text-label-lg text-on-surface-variant font-bold">East Africa Pulses Alliance</span>
+</div>
+<div class="p-space-md bg-surface-container-low rounded-xl flex items-center justify-center text-center">
+<span class="font-label-lg text-label-lg text-on-surface-variant font-bold">Smallholder Dev Trust</span>
+</div>
+<div class="p-space-md bg-surface-container-low rounded-xl flex items-center justify-center text-center">
+<span class="font-label-lg text-label-lg text-on-surface-variant font-bold">Afrimark Commodities</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 7. LATEST NEWS & AGRICULTURAL UPDATES -->
+<section class="w-full py-space-xl bg-surface-container-low">
+<div class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-lg gap-space-sm">
+<div>
+<span class="font-label-md text-label-md uppercase tracking-wider text-secondary font-bold">Field Bulletins</span>
+<h2 class="font-headline-xl text-headline-lg lg:text-headline-xl font-bold text-primary mt-space-xs">
+            Latest Agricultural Insights
+          </h2>
+</div>
+<a class="inline-flex items-center gap-1 text-secondary font-label-lg text-label-lg hover:underline" data-path="resources" href="#">
+<span>View all field reports</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- News Card 1 -->
+<article class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col justify-between">
+<div class="p-space-md">
+<div class="flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm mb-space-xs">
+<span class="px-2 py-0.5 rounded bg-surface-container font-semibold text-secondary">Market Watch</span>
+<span>12 Oct 2025</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface hover:text-primary transition-colors cursor-pointer">
+              Soybean Outlook: Northern Malawi Records High Regional Yields
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs line-clamp-3">
+              Favorable weather patterns and improved inoculated seed distribution by Papina Farms have boosted member cooperative soybean harvests by 34% this quarter.
+            </p>
+</div>
+<div class="px-space-md pb-space-md pt-0">
+<a class="inline-flex items-center gap-1 text-primary font-label-md text-label-md font-bold" href="#">
+<span>Read analysis</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+</div>
+</article>
+<!-- News Card 2 -->
+<article class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col justify-between">
+<div class="p-space-md">
+<div class="flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm mb-space-xs">
+<span class="px-2 py-0.5 rounded bg-surface-container font-semibold text-secondary">Infrastructure</span>
+<span>28 Sep 2025</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface hover:text-primary transition-colors cursor-pointer">
+              Seasonal Aggregation Launch at Mzuzu Central Depot
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs line-clamp-3">
+              With 10,000 MT calibrated grain storage ready, Papina Farms has begun receiving seasonal pulses and grain from outgrowers across Rumphi, Mzimba, and Nkhata Bay.
+            </p>
+</div>
+<div class="px-space-md pb-space-md pt-0">
+<a class="inline-flex items-center gap-1 text-primary font-label-md text-label-md font-bold" href="#">
+<span>Read announcement</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+</div>
+</article>
+<!-- News Card 3 -->
+<article class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm flex flex-col justify-between">
+<div class="p-space-md">
+<div class="flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm mb-space-xs">
+<span class="px-2 py-0.5 rounded bg-surface-container font-semibold text-secondary">Capacity Building</span>
+<span>15 Sep 2025</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface hover:text-primary transition-colors cursor-pointer">
+              Graduation of 210 Women Cooperative Leaders in Agronomy
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs line-clamp-3">
+              Closing the gender gap in agricultural management: Papina's 4-week intensive on post-harvest handling and financial literacy sees high participation in northern communities.
+            </p>
+</div>
+<div class="px-space-md pb-space-md pt-0">
+<a class="inline-flex items-center gap-1 text-primary font-label-md text-label-md font-bold" href="#">
+<span>Read article</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- 8. CONTACT CTA SECTION -->
+<section class="w-full py-space-xl bg-primary text-on-primary">
+<div class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin">
+<div class="bg-primary-container p-space-lg lg:p-space-xl rounded-2xl shadow-xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<div class="lg:col-span-8 flex flex-col gap-space-sm">
+<span class="font-label-sm text-label-sm text-tertiary-fixed font-bold uppercase tracking-wider">
+              Connect With Papina Farms
+            </span>
+<h2 class="font-headline-xl text-headline-lg lg:text-headline-xl font-bold text-on-primary">
+              Ready to Advance Agricultural Value in Malawi?
+            </h2>
+<p class="font-body-lg text-body-lg text-surface-container-high max-w-xl">
+              Whether you are a smallholder cluster seeking market access, a commercial buyer looking for bulk pulses, or an institutional partner—reach out to our Mzuzu team today.
+            </p>
+<div class="flex flex-wrap items-center gap-space-md pt-space-xs">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary-fixed text-[22px]">call</span>
+<span class="font-body-md text-body-md font-semibold text-on-primary">+265 (0) 1 320 000</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary-fixed text-[22px]">location_on</span>
+<span class="font-body-md text-body-md text-surface-container-high">Mzuzu Agro-Hub, Northern Malawi</span>
+</div>
+</div>
+</div>
+<div class="lg:col-span-4 flex flex-col gap-space-sm">
+<a class="inline-flex items-center justify-center gap-2 bg-tertiary-fixed text-on-tertiary-fixed font-label-lg text-label-lg py-space-md px-space-lg rounded-lg shadow-md hover:bg-tertiary-fixed-dim transition-all text-center" data-path="contact-us" href="#">
+<span class="material-symbols-outlined text-[20px]">send</span>
+<span>Send Us an Inquiry</span>
+</a>
+<a class="inline-flex items-center justify-center gap-2 bg-surface-container-lowest/15 text-on-primary border border-on-primary/20 font-label-lg text-label-lg py-space-md px-space-lg rounded-lg hover:bg-surface-container-lowest/25 transition-all text-center" data-path="become-a-group-member" href="#">
+<span>Register Cooperative</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<script>
+  // Simple Micro-interaction: Animated numeric counters
+  document.addEventListener('DOMContentLoaded', () => {
+    const animateValue = (id, start, end, duration, suffix = '') => {
+      const obj = document.getElementById(id);
+      if (!obj) return;
+      let startTimestamp = null;
+      const step = (timestamp) => {
+        if (!startTimestamp) startTimestamp = timestamp;
+        const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+        obj.innerHTML = Math.floor(progress * (end - start) + start).toLocaleString() + suffix;
+        if (progress < 1) {
+          window.requestAnimationFrame(step);
+        }
+      };
+      window.requestAnimationFrame(step);
+    };
+
+    // Trigger counters smoothly
+    setTimeout(() => {
+      animateValue('counter-farmers', 1000, 5000, 1400, '+');
+      animateValue('counter-coops', 5, 42, 1200, '');
+    }, 200);
+  });
+</script></main><footer class="w-full bg-primary-container text-on-primary pt-space-xl pb-space-lg"><div class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-gutter mb-space-xl"><div class="lg:col-span-4 flex flex-col gap-space-md"><div class="flex items-center gap-space-md"><img alt="papina logo.jpeg" class="h-8 w-auto object-contain brightness-0 invert" src="https://lh3.googleusercontent.com/aida/AEtjO1UL8ecs1asIfn_OqKhpfNHjBQfO-h04VS7UatyHpgARtiHHXhUJGjn8fK8BcTwv-SPnrSf9Y6XRa32Nnu0J36zVTdXh5B13PDWudf8OvzaydOx2fWTn-dssKdle67sw-Q8aBN3WCth58RWCZN3ypIPOldMV1-eNWIbxo6safDUgbWS5l6vhgcjNrglpaM9KxbhwgNDE9ry6AuI_l3QL5U8YJAOZRJequeJJsV3Pcu2n1Nnh9TQh_reLe-bBxTbA-r_ECb0FCFWuLx4"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-on-primary font-bold leading-none">PAPINA FARMS LTD</span><span class="font-label-sm text-label-sm text-on-primary-container tracking-wider uppercase mt-space-xs">Mzuzu, Malawi</span></div></div><p class="font-body-md text-body-md text-surface-container-high leading-relaxed">Empowering smallholder farmers, agricultural cooperatives, and modern value chains across Malawi. Headquartered in Mzuzu, Northern Region, championing sustainable agronomy and food security.</p></div><div class="lg:col-span-2 flex flex-col gap-space-sm"><span class="font-headline-sm text-label-lg text-tertiary-fixed uppercase tracking-wider mb-space-xs">Quick Links</span><a class="font-body-md text-body-md text-surface-container-high hover:text-on-primary transition-colors" data-path="home" href="#">Home</a><a class="font-body-md text-body-md text-surface-container-high hover:text-on-primary transition-colors" data-path="about-us" href="#">About Us</a><a class="font-body-md text-body-md text-surface-container-high hover:text-on-primary transition-colors" data-path="what-we-do" href="#">What We Do</a><a class="font-body-md text-body-md text-surface-container-high hover:text-on-primary transition-colors" data-path="resources" href="#">Agricultural Insights</a><a class="font-body-md text-body-md text-surface-container-high hover:text-on-primary transition-colors" data-path="contact-us" href="#">Contact Directory</a></div><div class="lg:col-span-3 flex flex-col gap-space-sm"><span class="font-headline-sm text-label-lg text-tertiary-fixed uppercase tracking-wider mb-space-xs">Key Portals</span><a class="font-body-md text-body-md text-surface-container-high hover:text-on-primary transition-colors" data-path="farmers-membership" href="#">Farmers Membership</a><a class="font-body-md text-body-md text-surface-container-high hover:text-on-primary transition-colors" data-path="markets-partners" href="#">Buyer Inquiries</a><a class="font-body-md text-body-md text-surface-container-high hover:text-on-primary transition-colors" data-path="markets-partners" href="#">Partner With Us</a><a class="font-body-md text-body-md text-surface-container-high hover:text-on-primary transition-colors" data-path="become-a-group-member" href="#">Outgrower Application</a></div><div class="lg:col-span-3 flex flex-col gap-space-sm"><span class="font-headline-sm text-label-lg text-tertiary-fixed uppercase tracking-wider mb-space-xs">Contact Info</span><div class="flex items-start gap-space-xs text-surface-container-high"><span class="material-symbols-outlined text-[18px] text-tertiary-fixed shrink-0 mt-0.5">location_on</span><span class="font-body-md text-body-md">Mzuzu Agro-Hub, Northern Region, Malawi</span></div><div class="flex items-center gap-space-xs text-surface-container-high"><span class="material-symbols-outlined text-[18px] text-tertiary-fixed shrink-0">mail</span><span class="font-body-md text-body-md">info@papinafarms.mw</span></div><div class="flex items-center gap-space-xs text-surface-container-high"><span class="material-symbols-outlined text-[18px] text-tertiary-fixed shrink-0">call</span><span class="font-body-md text-body-md">+265 (0) 1 320 000 / 999 123 456</span></div></div></div><div class="pt-space-md border-t border-primary/40 flex flex-col sm:flex-row items-center justify-between gap-space-sm text-surface-container-high font-body-sm text-body-sm"><p>© 2025 Papina Farms Ltd. All rights reserved. Registered in Malawi.</p><div class="flex items-center gap-space-md"><span class="text-tertiary-fixed font-label-sm text-label-sm">Mzuzu Hub</span><span>•</span><span class="text-surface-container-high font-label-sm text-label-sm">Sustainable Malawian Agriculture</span></div></div></div></footer></body></html>
